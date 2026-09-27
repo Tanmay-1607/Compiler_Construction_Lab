@@ -1,7 +1,7 @@
 # Experiment 1
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 
 ## Aim
 Introduction to LEX tool, metadata and patterns.

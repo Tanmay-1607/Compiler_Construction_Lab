@@ -1,7 +1,7 @@
 # Experiment 3
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 
 ## Aim
 Count number of words starting with "A".

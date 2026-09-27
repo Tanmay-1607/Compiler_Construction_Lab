@@ -1,7 +1,7 @@
 # Experiment 5
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 
 ## Aim
 Conversion of lowercase to uppercase and vice versa.

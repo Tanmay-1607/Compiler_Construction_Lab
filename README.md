@@ -1,7 +1,7 @@
 # Compiler Construction Lab — SEM 5
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 **Subject:** Compiler Construction Lab  
 **Semester:** 5  
 
