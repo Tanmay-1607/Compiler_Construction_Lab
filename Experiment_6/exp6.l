@@ -1,7 +1,7 @@
 /* 
  * Experiment 6: Conversion of decimal to hexadecimal number in a file
- * Name: Samruddhi Kalbande
- * PRN: 24070521278
+ * Name: Tanmay Sankulwar
+ * PRN: 24070521058
  * CO2
  */
 

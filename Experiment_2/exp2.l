@@ -1,7 +1,7 @@
 /* 
  * Experiment 2: Count comments, keywords, identifiers, words, lines, spaces
- * Name: Samruddhi Kalbande
- * PRN: 24070521278
+ * Name: Tanmay Sankulwar
+ * PRN: 24070521058
  */
 
 %{
