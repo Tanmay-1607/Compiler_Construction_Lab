@@ -1,7 +1,7 @@
 /* 
  * Experiment 3: Count number of words starting with "A"
- * Name: Samruddhi Kalbande
- * PRN: 24070521278
+ * Name: Tanmay Sankulwar
+ * PRN: 24070521058
  * CO1
  */
 

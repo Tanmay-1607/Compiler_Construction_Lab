@@ -1,7 +1,7 @@
 /* 
  * Experiment 5: Conversion of lowercase to uppercase and vice versa
- * Name: Samruddhi Kalbande
- * PRN: 24070521278
+ * Name: Tanmay Sankulwar
+ * PRN: 24070521058
  * CO2
  */
 
