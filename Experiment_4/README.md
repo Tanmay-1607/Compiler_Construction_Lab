@@ -1,7 +1,7 @@
 # Experiment 4
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 
 ## Aim
 Introduction to YACC tool, and format to write YACC code.

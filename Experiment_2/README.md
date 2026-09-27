@@ -1,7 +1,7 @@
 # Experiment 2
 
-**Name:** Samruddhi Kalbande  
-**PRN:** 24070521278  
+**Name:** Tanmay Sankulwar  
+**PRN:** 24070521058  
 
 ## Aim
 Count the number of comments, keywords, identifiers, words, lines and spaces from input file.
