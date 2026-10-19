@@ -2,35 +2,43 @@
 
 **Name:** Tanmay Sankulwar  
 **PRN:** 24070521058  
+**Subject:** Compiler Construction Lab  
+**Semester:** 5  
 
 ## Aim
 Test lines ending with "COM".
 
 ## Description
-This LEX program reads input line-by-line and identifies lines that end with the string "COM". It prints each matching line and provides a summary of total lines and lines ending with "COM".
+This LEX program reads input line-by-line and checks whether each line terminates with the specific uppercase substring `"COM"`. Matching lines are printed alongside their line numbers, and a final summary reports the total lines read and the number of lines ending with `"COM"`.
 
 ## How to Run
+
+### Compilation & Execution
 ```bash
 lex exp7.l
 cc lex.yy.c -ll
 ./a.out
 ```
-Enter lines of text and press `Ctrl+D` to see results.
+
+Or pass a file:
+```bash
+./a.out sample.txt
+```
 
 ### Example Input
 ```
-hello world COM
-this is a test
-example.COM
-goodbye
+google.COM
+yahoo.org
+amazon.COM
+github.io
 ```
 
 ### Expected Output
 ```
-Line 1 (ends with COM): hello world COM
-Line 3 (ends with COM): example.COM
+Line 1 (ends with COM): google.COM
+Line 3 (ends with COM): amazon.COM
 
---- Results ---
-Total lines              : 4
-Lines ending with 'COM'  : 2
+--- Analysis Summary ---
+Total Lines Evaluated    : 4
+Lines Ending with 'COM'  : 2
 ```

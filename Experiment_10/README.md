@@ -2,6 +2,8 @@
 
 **Name:** Tanmay Sankulwar  
 **PRN:** 24070521058  
+**Subject:** Compiler Construction Lab  
+**Semester:** 5  
 
 ## Aim
 Parser for FOR loop statements.
@@ -21,6 +23,8 @@ The parser validates the complete structure of a `for` loop:
 It properly accepts valid `for` loop constructs and rejects malformed inputs (such as missing semicolons or unmatched parentheses) with error reporting.
 
 ## How to Run
+
+### Compilation & Execution
 ```bash
 yacc -d exp10.y
 lex exp10.l

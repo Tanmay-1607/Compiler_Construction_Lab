@@ -12,12 +12,12 @@
 
 %%
 
-[0-9]+   { 
-    int num = atoi(yytext);
-    printf("0x%X", num);
+[0-9]+          { 
+    long long num = atoll(yytext);
+    printf("0x%llX", num);
 }
-.        { printf("%s", yytext); }
-\n       { printf("\n"); }
+.               { printf("%s", yytext); }
+\n              { printf("\n"); }
 
 %%
 
@@ -29,13 +29,13 @@ int main(int argc, char *argv[]) {
     if (argc > 1) {
         FILE *f = fopen(argv[1], "r");
         if (!f) {
-            printf("Cannot open file %s\n", argv[1]);
+            fprintf(stderr, "Error: Cannot open input file '%s'\n", argv[1]);
             return 1;
         }
         yyin = f;
         printf("--- Decimal to Hexadecimal Conversion ---\n\n");
     } else {
-        printf("Enter text with numbers (Ctrl+D to end):\n");
+        printf("Enter text with decimal numbers (Ctrl+D to end):\n");
     }
 
     yylex();

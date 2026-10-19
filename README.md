@@ -10,30 +10,30 @@
 ## Experiment List
 
 | Exp No. | CO  | Aim |
-|---------|-----|-----|
-| 1 | CO1 | Introduction to LEX tool, metadata and patterns |
-| 2 | CO1 | Count the number of comments, keywords, identifiers, words, lines and spaces from input file |
-| 3 | CO1 | Count number of words starting with "A" |
-| 4 | CO2 | Introduction to YACC tool, and format to write YACC code |
-| 5 | CO2 | Conversion of lowercase to uppercase and vice versa |
-| 6 | CO2 | Conversion of decimal to hexadecimal number in a file |
-| 7 | CO3 | Test lines ending with "COM" |
-| 8 | CO3 | Postfix Expression Evaluation |
-| 9 | CO4 | Desk calculator with error recovery |
-| 10 | CO4 | Parser for FOR loop statements |
+|:---:|:---:|:---|
+| [1](Experiment_1) | CO1 | [Introduction to LEX tool, metadata and patterns](Experiment_1) |
+| [2](Experiment_2) | CO1 | [Count comments, keywords, identifiers, words, lines and spaces from an input file](Experiment_2) |
+| [3](Experiment_3) | CO1 | [Count words starting with "A"](Experiment_3) |
+| [4](Experiment_4) | CO2 | [Introduction to YACC tool and format for writing YACC code](Experiment_4) |
+| [5](Experiment_5) | CO2 | [Conversion of lowercase to uppercase and vice versa](Experiment_5) |
+| [6](Experiment_6) | CO2 | [Conversion of decimal to hexadecimal number in a file](Experiment_6) |
+| [7](Experiment_7) | CO3 | [Test lines ending with "COM"](Experiment_7) |
+| [8](Experiment_8) | CO3 | [Postfix Expression Evaluation](Experiment_8) |
+| [9](Experiment_9) | CO4 | [Desk calculator with error recovery](Experiment_9) |
+| [10](Experiment_10) | CO4 | [Parser for FOR loop statements](Experiment_10) |
 
 ---
 
 ## How to Compile & Run
 
-### LEX Programs
+### LEX Programs (Experiments 1, 2, 3, 5, 6, 7)
 ```bash
 lex filename.l
 cc lex.yy.c -ll
 ./a.out
 ```
 
-### YACC Programs
+### YACC Programs (Experiments 4, 8, 9, 10)
 ```bash
 yacc -d filename.y
 lex filename.l

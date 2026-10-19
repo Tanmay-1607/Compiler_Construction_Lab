@@ -2,6 +2,8 @@
 
 **Name:** Tanmay Sankulwar  
 **PRN:** 24070521058  
+**Subject:** Compiler Construction Lab  
+**Semester:** 5  
 
 ## Aim
 Desk calculator with error recovery.
@@ -19,6 +21,8 @@ It supports:
 - Error recovery at newline delimiter
 
 ## How to Run
+
+### Compilation & Execution
 ```bash
 yacc -d exp9.y
 lex exp9.l

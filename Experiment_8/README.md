@@ -2,6 +2,8 @@
 
 **Name:** Tanmay Sankulwar  
 **PRN:** 24070521058  
+**Subject:** Compiler Construction Lab  
+**Semester:** 5  
 
 ## Aim
 Postfix Expression Evaluation.
@@ -16,6 +18,8 @@ It supports:
 - Invalid expression detection with error recovery across input lines
 
 ## How to Run
+
+### Compilation & Execution
 ```bash
 yacc -d exp8.y
 lex exp8.l

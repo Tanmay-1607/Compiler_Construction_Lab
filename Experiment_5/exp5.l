@@ -7,14 +7,16 @@
 
 %{
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 %}
 
 %%
 
-[a-z]   { printf("%c", yytext[0] - 32); }
-[A-Z]   { printf("%c", yytext[0] + 32); }
-.       { printf("%s", yytext); }
-\n      { printf("\n"); }
+[a-z]       { printf("%c", toupper(yytext[0])); }
+[A-Z]       { printf("%c", tolower(yytext[0])); }
+\n          { printf("\n"); }
+.           { printf("%s", yytext); }
 
 %%
 
@@ -26,12 +28,13 @@ int main(int argc, char *argv[]) {
     if (argc > 1) {
         FILE *f = fopen(argv[1], "r");
         if (!f) {
-            printf("Cannot open file %s\n", argv[1]);
+            fprintf(stderr, "Error: Cannot open file '%s'\n", argv[1]);
             return 1;
         }
         yyin = f;
     } else {
-        printf("Enter text (Ctrl+D to end):\n");
+        printf("Case Inversion Tool (LEX)\n");
+        printf("Enter text to toggle case (Ctrl+D to end):\n");
     }
 
     yylex();

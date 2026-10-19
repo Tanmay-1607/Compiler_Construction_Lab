@@ -1,10 +1,9 @@
 /* 
- * Experiment 4: Introduction to YACC tool, and format to write YACC code
- * Name: Samruddhi Kalbande
- * PRN: 24070521278
+ * Experiment 4: Introduction to YACC tool and format for writing YACC code
+ * YACC file - Arithmetic Calculator demonstrating YACC grammar format
+ * Name: Tanmay Sankulwar
+ * PRN: 24070521058
  * CO2
- * 
- * YACC file - Simple Calculator (demonstrates YACC grammar format)
  */
 
 %{
@@ -12,7 +11,7 @@
 #include <stdlib.h>
 
 void yyerror(const char *s);
-int yylex();
+int yylex(void);
 %}
 
 %token NUMBER
